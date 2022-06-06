@@ -102,4 +102,60 @@ public class PartePrincipal {
 		                     System.out.println("Ingrese la opcion que desea usar: ");
 
 	              }
+		                     decisionTres =sc.nextInt();
+		                     
+		                	 
+		   	              switch(decisionTres){
+
+		   	                case 1:
+		   	                    
+		   	                      String nombreD="";
+		   	                      int numeroM=0;
+		   	                      String nombreC="";
+		   	                      int registroA=0;
+		   	 
+		   	                        departamentosB.departamento();
+		   	                          
+
+		   		          break;
+		   	                  
+		   	                  case 2:
+		   	                      
+		   	                      departamentosB.departamentoNumero();
+		   	                     
+		   		          break;
+		   	                  
+
+		   	                case 3:
+		   	                     
+		   		          break;
+		   	                }
+		   	              
+		   	             }while(decisionTres!=3);
+		   	   
+		   	             break;
+		   	                     
+		   	                 
+		   	                case 3:
+		   	                  
+		   	                           ejerciciosListasB.mostrarDatos();
+
+		   	                 break;
+		   	                 
+		   	                case 4:
+		   	                        
+		   	                           departamentosB.listaHistorial();
+		   	                     
+		   	                 break;
+		   	                 
+		   	                  case 5:
+		   	                        
+		   	                           departamentosB.limpieza();
+		   	                     
+		   	                 break;
+		   	                
+		   	                 
+		   	                case 6:
+		   	                              
+
 
