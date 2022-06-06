@@ -47,4 +47,59 @@ public class PartePrincipal {
 	                     
 	 
 	              switch(decisionDos){
+	                case 1:
+	                     
+		                   int registroA=0;
+		                     String nombreA="";
+		                     int numeroB=0;
+		                     String nombreB="";
+		                     
+		                    
+		                     
+		                     ejerciciosListasB.datosDepa2();
+			                   break;
+		                  
+		                  case 2:
+		                   
+		                   ejerciciosListasB.mostrarDatosDepartamento();
+		                         
+		      
+			          break;
+		                  
+		                 case 3:
+		                      
+		                      ejerciciosListasB.mostrarDatosCabecera();
+		                                        
+			          break;
+		                  
+		                  case 4:
+		                      
+		                     ejerciciosListasB.forDos();
+		                     
+			          break;
+		                  
+		  
+		                case 5:
+		                     
+			          break;
+		                }
+		              
+		             }while(decisionDos!=5);
+		   
+		             break;
+		             
+		                case 2: //LISTAS
+		                    
+		                     
+		                     int decisionTres = 0;
+		                     
+		                     do{ //MENU DE LISTAS
+
+		                       System.out.println("1. Registrar departamentos");
+		                       System.out.println("2. Buscar departamento por numero"); 
+		                       System.out.println("3. Regresar");
+		                       
+		                     System.out.println("Ingrese la opcion que desea usar: ");
+
+	              }
 
